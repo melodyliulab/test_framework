@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def test_successful_login():
-    # 1. 初始化浏览器驱动 (以 Chrome 为例)
+    # 1. 初始化浏览器驱动 (以 Edge 为例)
     # Selenium 4 会自动管理底层驱动，无需指定 executable_path
     driver = webdriver.Edge()
     
